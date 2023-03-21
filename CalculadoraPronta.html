@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+ 
+</head>
+<body>
+  <div class="calculator">
+    <div id="display"></div>
+    <div id="resultado"></div>
+    <input id="gray" type="button" value="C" onclick="limpar()">
+    <input id="gray" type="button" value="DEL" onclick="apagar()">
+    <input id="gray" type="button" value="%" onclick="calcular('%')">
+    <input id="blue" type="button" value="/" onclick="calcular('/')">
+    <br>
+    <input type="button" value="7" onclick="adicionarValor(7)">
+    <input type="button" value="8" onclick="adicionarValor(8)">
+    <input type="button" value="9" onclick="adicionarValor(9)">
+    <input id="blue" type="button" value="*" onclick="calcular('*')">
+    <br>
+    <input type="button" value="4" onclick="adicionarValor(4)">
+    <input type="button" value="5" onclick="adicionarValor(5)">
+    <input type="button" value="6" onclick="adicionarValor(6)">
+    <input id="blue" type="button" value="-" onclick="calcular('-')">
+    <br>
+    <input type="button" value="1" onclick="adicionarValor(1)">
+    <input type="button" value="2" onclick="adicionarValor(2)">
+    <input type="button" value="3" onclick="adicionarValor(3)">
+    <input id="blue" type="button" value="+" onclick="calcular('+')">
+    <br>
+    <input type="button" value="0" onclick="adicionarValor(0)">
+    <input type="button" value="," onclick="adicionarPonto()">
+    <input id="blue" type="button" value="=" onclick="calcular('=')">
+    
+  </div>
+  
+	<script src="calc.js"></script>
+</body>
+</html>
