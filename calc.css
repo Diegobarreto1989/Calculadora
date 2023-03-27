@@ -3,14 +3,14 @@ body {
   }
   .calculator {
     width: 600px;
-    height: 770px;
+    height: 610px;
     border-radius: 8px;
     background: #17171c;
     position: absolute;
     left: 28.04%;
     right: 28.04%;
-    top: 14.35%;
-    bottom: 14.35%;
+    top: 1%;
+    bottom: 1%;
   }
   input[type="button"] {
     
@@ -31,6 +31,11 @@ body {
     background: #006FFF;
   }
 
+  #blue2 {
+    background: #006FFF;
+    width: 272px;
+  }
+
   #gray {
     background: #4E505F;
   }
@@ -47,6 +52,7 @@ body {
     opacity: 0.4;
     text-align: right;
     padding: 5px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border: 1px solid #000;
     flex: none;
